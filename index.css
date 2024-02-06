@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/3415007.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+h1{
+    text-align: center;
+    color: beige;
+    margin-top: 10px;
+}
+.box{
+    padding: 20px;
+    width:900px;
+    height: 400px;
+    margin-block-start: 20px;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+  background-color: rgba(0, 0, 0, 0.564);
+}
+.childbox{
+    width:440px;
+    height:360px;
+    
+    padding: 5px;
+}
+.inputbox{
+    width:420px;
+    height:80px;
+   
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#GetUsername{
+   
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.296);
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    padding-inline-start: 30px;
+    border: 1px solid white;
+}
+#GetUsername::placeholder{
+    color:white;
+    text-align: center;
+    
+}
+.btndiv{
+    width:420px;
+    height:80px;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+button{
+  width:250px;
+  background-color: rgba(0, 0, 0, 0.296);
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color:white;
+  background-color: #090c0e;
+  cursor: pointer;
+
+}
+button:hover{
+    background-color: #090c0e9a;
+}
+.outputBox{
+    width:400px;
+    height:360px;
+    
+    padding: 5px;
+    
+}
+.profile-pic{
+    width: 386px;
+    height:200px;
+   
+    padding:9px;
+}
+.image{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-inline-start: 90px;
+}
+.infoBox{
+    width: 386px;
+    height:130px;
+   
+    padding:9px;
+    margin-top: 10px;
+    text-align: center;
+    
+   
+}
+.Name{
+    color: white;
+   
+}
+.Bio{
+    color: white;
+    
+    margin-top: 2px;
+}
+.repos{
+    color: white;
+    
+    margin-top: 2px; 
+}
+.followers{
+    color: white;
+    
+    margin-top: 2px; 
+}
+.following{
+    color: white;
+   
+    margin-top: 2px; 
+}
