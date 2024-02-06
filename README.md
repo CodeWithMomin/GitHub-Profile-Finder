@@ -1,7 +1,7 @@
 <div align='center'>
 
 <h1>GitHub Profile Finder</h1>
-<p>This is Github Profile Finder Web Application .Here you can search any github user by entering her/his username. This will show you the no. of repositories the user have his /her followers and following list. To use this application click on me https://gitubprofiefinder.netlify.app</p>
+<p>This is Github Profile Finder Web Application .Here you can search any github user by entering her/his username. This will show you the no. of repositories the user have his /her followers and following list. To use this application click on me https://githubprofilefinderonline.netlify.app/</p>
 
 <h4> <span> · </span> <a href="https://github.com/CodeWithMomin/GitHub-Profile-Finder/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/CodeWithMomin/GitHub-Profile-Finder/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/CodeWithMomin/GitHub-Profile-Finder/issues"> Request Feature </a> </h4>
 
@@ -25,9 +25,9 @@
 
 ### :triangular_flag_on_post: Deployment
 
-To use this App
+To use
 ```bash
-https://gitubprofiefinder.netlify.app
+https://githubprofilefinderonline.netlify.app/
 ```
 
 
@@ -35,4 +35,4 @@ https://gitubprofiefinder.netlify.app
 
 Momin Zahoor - [@twitter_handle](_mominzahoor_) - mominzahoor11@gmail.com
 
-Project Link: [https://github.com/CodeWithMomin/GitHub-Profile-Finder](https://github.com/CodeWithMomin/GitHub-Profile-Finder)
+Project Link: [https://github.com/CodeWithMomin/GitHub-Profile-Finde](https://github.com/CodeWithMomin/GitHub-Profile-Finde)
