@@ -58,6 +58,9 @@ let outputBox=document.createElement("div");
 btnclick.addEventListener('click',()=>{
     getprofile(user_name.value);
 })
-window.addEventListener("load",()=>{
-    getprofile(user_name.value);
-    })
+
+//removed this section
+
+// window.addEventListener("load",()=>{
+//     getprofile(user_name.value);
+//     })
