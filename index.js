@@ -1,7 +1,5 @@
 
-
-
-let user_name= "document.querySelector("#GetUsername");
+let user_name=document.querySelector("#GetUsername");
 let profile=document.querySelector("#profile-pic")
 let name=document.querySelector(".name");
 let bio=document.querySelector(".bio");
@@ -28,7 +26,10 @@ async function getprofile(user_name){
         repos.innerText=`Repositories: ${data.public_repos}`;
         following.innerText=`Following: ${data.following}`;
         followers.innerText=`Followers: ${data.followers} `;
-        userlocation.innerText=`Location: ${data.location}`;
+        if(data.location!=null)
+        {
+          userlocation.innerText=`Location: ${data.location}`;
+        }
       }
 }
 btnclick.addEventListener('click',()=>{
