@@ -1,285 +1,73 @@
 *{
-    margin: 0px;
-    padding:0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
-    background-image: url("https://wallpaperaccess.com/full/3415007.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.container{
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
-    align-items:center;
-
-}
-h1{
-    text-align: center;
-    color: beige;
-    margin-top: 10px;
+    align-content: center;
+   overflow: hidden;
+    
 }
 .box{
-    padding: 20px;
-    width:900px;
-    height: 400px;
-    margin-block-start: 20px;
-    border: 0.5px solid white;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-  
-  background-color: rgba(0, 0, 0, 0.564);
-}
-.childbox{
-    width:440px;
-    height:360px;
-    
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
     padding: 5px;
 }
-.inputbox{
-    width:420px;
-    height:80px;
-   
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-#GetUsername{
-   
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.296);
-    height: 50px;
-    border-radius: 10px;
-    color: white;
-    padding-inline-start: 30px;
-    border: 1px solid white;
-}
-#GetUsername::placeholder{
-    color:white;
-    text-align: center;
-    
-}
-.btndiv{
-    width:420px;
-    height:80px;
-    
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+#heading{
+    font-size: 20px;
 
+}
+input[type="text"]{
+    width:280px;
+    height:30px;
+    margin-top: 40px;
+    color: black;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input::placeholder{
+    padding: 10px;
+    color: black;
 }
 button{
-  width:250px;
-  background-color: rgba(0, 0, 0, 0.296);
-  height: 50px;
-  border-radius: 10px;
-  border: 1px solid white;
-  color:white;
-  background-color: #090c0e;
-  cursor: pointer;
-
+    width: 100px;
+    height: 30px;
+    margin-block: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-inline: 100px;
 }
 button:hover{
-    background-color: #090c0e9a;
+    scale: 1.1;
 }
-.outputBox{
-    width:400px;
-    height:360px;
-    
-    padding: 5px;
-    
-}
-.profile-pic{
-    width: 386px;
-    height:200px;
-   
-    padding:9px;
-}
-.image{
-    width:180px;
-    height:180px;
+#profile-pic{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
     border-radius: 50%;
-    border: 1px solid white;
-    margin-inline-start: 90px;
-}
-.infoBox{
-    width: 386px;
-    height:130px;
-   
-    padding:9px;
-    margin-top: 10px;
-    text-align: center;
-    
-   
-}
-.Name{
-    color: white;
-   
-}
-.Bio{
-    color: white;
-    
-    margin-top: 2px;
-}
-.repos{
-    color: white;
-    
-    margin-top: 2px; 
-}
-.followers{
-    color: white;
-    
-    margin-top: 2px; 
-}
-.following{
-    color: white;
-   
-    margin-top: 2px; 
+    margin-bottom: 15px;
 }
 
-@media  all and (max-width:505px) and (min-width:300px)
-{
+@media  only  screen and  (max-width: 335px) {
     body{
-        background-size:800%;
-        
-    }
-    h1{
-        margin-top: 2px;
-        font-size: 25px;
-        text-align: center;
-    }
-    .container{
-        width: 550px;
-        height: auto;
-        display: flex;
-        justify-content: center;
+       
+        overflow: hidden;
     }
     .box{
-        
-        width:400px;
-        height: auto;
-        margin-block-start: 10px;
-        margin-inline: 0px;
-        border-radius: 20px;
-       
-        display: block;
-      
-      background-color: rgba(0, 0, 0, 0.564);
+        width: 220px;
     }
-    
-.childbox{
-    width:300px;
-    height:180px;
-    
-    padding: 5px;
-}
-.inputbox{
-    width:300px;
-    height:80px;
-   
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-#GetUsername{
-   
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.296);
-    height: 50px;
-    border-radius: 10px;
-    color: white;
-    padding-inline-start: 30px;
-    border: 1px solid white;
-}
-#GetUsername::placeholder{
-    color:white;
-    text-align: center;
-    
-}
+    input[type="text"]{
+    width:200px;
+    height:30px;
 
-
-.btndiv{
-    width:300px;
-    height:80px;
-    
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-button{
-  width:200px;
-  background-color: rgba(0, 0, 0, 0.296);
-  height: 50px;
-  border-radius: 10px;
-  border: 1px solid white;
-  color:white;
-  background-color: #090c0e;
-  cursor: pointer;
-
-}
-button:hover{
-    background-color: #090c0e9a;
-}
-.outputBox{
-    width:250px;
-    height:360px;
-    
-    padding: 5px;
-    
-}
-.profile-pic{
-    width: 300px;
-    height:200px;
-   
-    padding:9px;
-}
-.image{
-    width:150px;
-    height:140px;
-    border-radius: 50%;
-    border: 1px solid white;
-    margin-inline-start: 50px;
-}
-.infoBox{
-    width: 300px;
-    height:130px;
-   
-    padding:9px;
-    margin-top: 10px;
-    text-align: center;
-    
-   
-}
-.Name{
-    color: white;
-   
-}
-.Bio{
-    color: white;
-    
-    margin-top: 2px;
-}
-.repos{
-    color: white;
-    
-    margin-top: 2px; 
-}
-.followers{
-    color: white;
-    
-    margin-top: 2px; 
-}
-.following{
-    color: white;
-   
-    margin-top: 2px; 
-}
-    
-    
+    }
+    button{
+        margin-inline: 60px;
+    }
 }
