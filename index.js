@@ -26,10 +26,7 @@ async function getprofile(user_name){
         repos.innerText=`Repositories: ${data.public_repos}`;
         following.innerText=`Following: ${data.following}`;
         followers.innerText=`Followers: ${data.followers} `;
-        if(data.location!=null)
-        {
-          userlocation.innerText=`Location: ${data.location}`;
-        }
+        
       }
 }
 btnclick.addEventListener('click',()=>{
