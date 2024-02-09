@@ -28,7 +28,7 @@ async function getprofile(user_name){
         followers.innerText=`Followers: ${data.followers} `;
         
          let userLocation=data.location;
-         if(userLocation!=="null" && userLocation!==undefined)
+         if(userLocation!=="null" && userLocation!=="undefined")
          {
           userlocation.innerText=userLocation;
          }
