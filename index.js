@@ -17,6 +17,9 @@ async function getprofile(user_name){
     console.log(data);  
     if(data.message=='Not Found'){
         alert("User Not Found");
+         
+      window.location.reload();
+    
        return ;
       }
       else{
@@ -36,7 +39,5 @@ async function getprofile(user_name){
 }
 btnclick.addEventListener('click',()=>{
     getprofile(user_name.value);
-     setTimeout(()=>{
-      window.location.reload();
-     },5000)
+    
 })
