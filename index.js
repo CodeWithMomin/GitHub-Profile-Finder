@@ -27,8 +27,16 @@ async function getprofile(user_name){
         following.innerText=`Following: ${data.following}`;
         followers.innerText=`Followers: ${data.followers} `;
         
+         let userLocation=data.location;
+         if(userLocation!=="null" && userLocation!==undefined)
+         {
+          userlocation.innerText=userLocation;
+         }
       }
 }
 btnclick.addEventListener('click',()=>{
     getprofile(user_name.value);
+     setTimeout(()=>{
+      window.location.reload();
+     },5000)
 })
